@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Training artifacts — not committed (reproducible by re-running notebooks)
+outputs/**/*.csv
+outputs/**/*.png
+outputs/**/*.npz
+outputs/**/results.json
+outputs/**/*.keras
+outputs/**/phase*_best.keras
+
+# OS / misc
+*.swp
+Thumbs.db
